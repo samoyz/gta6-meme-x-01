@@ -7,11 +7,18 @@
 **"WAITED 13 YEARS FOR GTA 6 — MY AGENT PAID FOR IT ON MAKE.FUN"**
 
 I waited 13 years since GTA V; my AI agent earned the money for GTA 6 on
-make.fun while I waited. The scene is a Vice City / Leonida sunset: the
-make.fun ghost is the sun itself, rising over a city skyline with palm
-trees. The ghost is make.fun's own mark from the press kit
-(`make.fun/press/`), worked into the scene as the sun — not pasted on as
-a sticker — and the picture's punchline names make.fun in pink.
+make.fun while I waited. The meme is a reconstructed denim jacket, in the
+language of DBWD Atelier (Bandung): charcoal denim with a woven texture,
+the make.fun ghost as a cream fabric patch stitched on with white sashiko
+X stitches, the Vice City sun as patchwork (gold, cream and faded-denim
+wedges with dashed stitch seams, one orange-red wedge as the single
+accent), palm silhouettes as dark denim cut-outs, serif capitals for the
+title and wide-spaced monospace for the label, like a sewn-on woven label.
+One accent colour only: orange-red (the sun wedge, MAKE.FUN and the
+SAMOYZ tab). The micro-label underneath reads "EST. 2013 - STILL
+WAITING". The ghost is make.fun's own mark from the press kit
+(`make.fun/press/`), printed tone-on-tone on the patch, not pasted on as
+a sticker.
 
 ## The bounty
 
@@ -25,8 +32,9 @@ clean the picture is. Top 50 share $500.
 ## How the entry works
 
 - `meme.png` — the meme (1024×1024 PNG, built from scratch with
-  `build_meme.py`; the make.fun ghost mark comes from the official press
-  kit).
+  `build_meme_v2.py`; the make.fun ghost mark comes from the official press
+  kit). This is the DBWD-style v2, chosen over the v1 sunset meme.
+- `meme-dbwd.png` — the same v2 image, kept under its own name.
 - `POST.json` — names the X post URL. **Placeholder right now**: replace
   `url` with the real post URL after posting, e.g.
   `https://x.com/<handle>/status/<id>`.
